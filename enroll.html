@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll Now | Leafclutch Technologies — Apply for Training &amp; Internship</title>
+  <meta name="description" content="Enroll in Leafclutch Technologies training and internship programs. Apply for AI, Web Development, Cybersecurity, UI/UX, Graphic Design, and Data Science courses.">
+  <meta name="keywords" content="enroll IT course Nepal, apply internship Nepal, Leafclutch Technologies enrollment, tech training Nepal">
+  <meta name="author" content="Leafclutch Technologies Pvt. Ltd.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://leafclutchtech.com.np/enroll">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-text"><span class="logo-line1">Leafclutch</span><span class="logo-line2">Technologies Pvt. Ltd.</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li class="has-dropdown">
+            <a href="courses.html" class="nav-link">Courses <i class="fas fa-chevron-down nav-arrow"></i></a>
+            <ul class="dropdown">
+              <li><a href="course-ai-ml.html">AI &amp; Machine Learning</a></li>
+              <li><a href="course-web-dev.html">Web Development</a></li>
+              <li><a href="course-cybersecurity.html">Cybersecurity</a></li>
+              <li><a href="course-ui-ux.html">UI/UX Design</a></li>
+              <li><a href="course-graphic-design.html">Graphic Designing</a></li>
+              <li><a href="course-data-science.html">Data Science</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-login">Get in Touch</a>
+        <a href="courses.html" class="btn btn-signup">Explore Courses</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-badge">ENROLLMENT</span>
+      <h1 class="section-title">Enroll in a Program</h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">HOME</a>
+        <span class="breadcrumb-separator">&gt;</span>
+        <a href="courses.html">COURSES</a>
+        <span class="breadcrumb-separator">&gt;</span>
+        <span class="breadcrumb-current">ENROLL</span>
+      </nav>
+      <p class="section-desc">Fill in your details below to apply for our training &amp; internship programs. We'll get back to you within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- ========== ENROLLMENT FORM ========== -->
+  <section class="enroll-section">
+    <div class="container">
+      <div class="enroll-grid">
+
+        <!-- Form -->
+        <div class="enroll-form-card reveal">
+          <h2><i class="fas fa-user-graduate"></i> Application Form</h2>
+          <form id="enrollForm">
+
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="required">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactNumber">Contact Number <span class="required">*</span></label>
+                <input type="number" id="contactNumber" name="contactNumber" placeholder="9800000000" required min="0" inputmode="numeric">
+              </div>
+              <div class="form-group">
+                <label for="email">Professional Gmail <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="yourname@gmail.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="linkedin">LinkedIn Profile <span class="optional">(Optional)</span></label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yourprofile">
+              </div>
+              <div class="form-group">
+                <label for="semester">Current Semester <span class="required">*</span></label>
+                <select id="semester" name="semester" required>
+                  <option value="" disabled selected>Select your semester</option>
+                  <option value="1st Semester">1st Semester</option>
+                  <option value="2nd Semester">2nd Semester</option>
+                  <option value="3rd Semester">3rd Semester</option>
+                  <option value="4th Semester">4th Semester</option>
+                  <option value="5th Semester">5th Semester</option>
+                  <option value="6th Semester">6th Semester</option>
+                  <option value="7th Semester">7th Semester</option>
+                  <option value="8th Semester">8th Semester</option>
+                  <option value="Graduate">Graduate</option>
+                  <option value="Working Professional">Working Professional</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="course">Program You're Applying For <span class="required">*</span></label>
+              <select id="course" name="course" required>
+                <option value="" disabled selected>Select a program</option>
+                <option value="AI & Machine Learning">AI &amp; Machine Learning</option>
+                <option value="Full Stack Web Development">Full Stack Web Development</option>
+                <option value="Cybersecurity Fundamentals">Cybersecurity Fundamentals</option>
+                <option value="UI/UX Design Mastery">UI/UX Design Mastery</option>
+                <option value="Graphic Designing Professional">Graphic Designing Professional</option>
+                <option value="Data Science & Analytics">Data Science &amp; Analytics</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Why do you want to join this program? <span class="required">*</span></label>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="reason" value="To gain practical experience" required>
+                  <span class="radio-custom"></span>
+                  To gain practical experience
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="reason" value="It is mandatory to complete an internship for my college requirements">
+                  <span class="radio-custom"></span>
+                  It is mandatory to complete an internship for my college requirements
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="reason" value="Other">
+                  <span class="radio-custom"></span>
+                  Other:
+                </label>
+              </div>
+              <input type="text" id="otherReason" name="otherReason" placeholder="Please specify your reason..." class="other-reason-input" style="display:none;">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+              <span class="btn-text">Submit Application <i class="fas fa-paper-plane"></i></span>
+              <span class="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+            </button>
+          </form>
+
+          <!-- Success Message -->
+          <div id="successMessage" class="form-success" style="display:none;">
+            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>Application Submitted!</h3>
+            <p>Thank you for your interest. Our team will review your application and contact you within 24 hours.</p>
+            <a href="index.html" class="btn btn-outline-primary">Back to Home</a>
+          </div>
+
+          <!-- Error Message -->
+          <div id="errorMessage" class="form-error" style="display:none;">
+            <div class="error-icon"><i class="fas fa-exclamation-circle"></i></div>
+            <h3>Something went wrong</h3>
+            <p>Please try again or contact us directly at <a href="mailto:careers@leafclutchtech.com.np">careers@leafclutchtech.com.np</a></p>
+            <button class="btn btn-outline-primary" onclick="document.getElementById('errorMessage').style.display='none'; document.getElementById('enrollForm').style.display='block';">Try Again</button>
+          </div>
+        </div>
+
+        <!-- Info Sidebar -->
+        <div class="enroll-info reveal">
+          <div class="enroll-info-card">
+            <div class="enroll-info-icon"><i class="fas fa-clock"></i></div>
+            <h3>Quick Response</h3>
+            <p>We review applications within 24 hours and get back to you with next steps.</p>
+          </div>
+          <div class="enroll-info-card">
+            <div class="enroll-info-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Beginner Friendly</h3>
+            <p>No prior experience needed. Our programs are designed for absolute beginners.</p>
+          </div>
+          <div class="enroll-info-card">
+            <div class="enroll-info-icon"><i class="fas fa-certificate"></i></div>
+            <h3>Certificate Included</h3>
+            <p>Get an industry-recognized certificate upon successful completion.</p>
+          </div>
+          <div class="enroll-info-card">
+            <div class="enroll-info-icon"><i class="fas fa-headset"></i></div>
+            <h3>Need Help?</h3>
+            <p>Contact us at <a href="mailto:careers@leafclutchtech.com.np">careers@leafclutchtech.com.np</a> or call <a href="tel:+9779766715768">+977-9766715768</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT YOU GET AFTER ENROLLMENT ========== -->
+  <section class="enroll-benefits-section">
+    <div class="container">
+      <div class="enroll-benefits-header">
+        <span class="section-badge">AFTER ENROLLMENT</span>
+        <h2 class="section-title">What You'll Get</h2>
+        <p class="section-desc">From day one, you'll have access to resources and support that set you up for success.</p>
+      </div>
+      <div class="enroll-benefits-grid">
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fab fa-youtube"></i></div>
+          <h3>Lifetime Udemy Course</h3>
+          <p>Get a premium Udemy course related to your chosen training program — yours to keep forever.</p>
+          <span class="enroll-benefit-highlight">Highlight</span>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Dedicated Mentor Support</h3>
+          <p>Get guidance from experienced industry mentors who'll help you every step of the way.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-building"></i></div>
+          <h3>Company Workflow Experience</h3>
+          <p>Understand how a real IT company operates — from project planning to deployment.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>1 Month Training + 2 Months Internship</h3>
+          <p>One month of intensive training followed by two months of hands-on training and internship opportunity.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>Connections &amp; Exposure</h3>
+          <p>Build your professional network and gain valuable industry exposure through real projects.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Potential Job Offer</h3>
+          <p>Best performing candidates can receive a direct job offer from Leafclutch Technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT YOU GET AFTER COMPLETION ========== -->
+  <section class="enroll-benefits-section enroll-benefits-section--alt">
+    <div class="container">
+      <div class="enroll-benefits-header">
+        <span class="section-badge">AFTER COMPLETION</span>
+        <h2 class="section-title">What You'll Walk Away With</h2>
+        <p class="section-desc">Complete the program and leave with tangible skills, credentials, and opportunities.</p>
+      </div>
+      <div class="enroll-benefits-grid">
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-award"></i></div>
+          <h3>Completion Certificate</h3>
+          <p>Receive an official completion certificate from Leafclutch Technologies for your portfolio.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Training &amp; Internship Certificates</h3>
+          <p>Get separate training certificate and internship certificate to showcase your experience.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Company &amp; Tools Knowledge</h3>
+          <p>Gain real understanding of how companies run and hands-on experience with industry tools.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Professional Experience</h3>
+          <p>Add real professional work experience to your resume — not just theory, but actual project work.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-hands-helping"></i></div>
+          <h3>Ongoing Team Support</h3>
+          <p>Our team continues to support you even after the program — career advice, referrals, and more.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-user-check"></i></div>
+          <h3>Direct Job Offer</h3>
+          <p>If a vacancy is available, you can get a direct job offer — no interview needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SUBMIT OPTIONS MODAL ========== -->
+  <div class="submit-modal-overlay" id="submitModal">
+    <div class="submit-modal">
+      <h3>Send Your Application</h3>
+      <p>Choose how you'd like to send your enrollment details:</p>
+      <div class="submit-modal-buttons">
+        <a id="whatsappBtn" href="#" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> Send via WhatsApp
+        </a>
+        <a id="gmailBtn" href="#" class="btn-gmail" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-envelope"></i> Send via Email
+        </a>
+      </div>
+      <button class="submit-modal-close" id="modalClose">Cancel</button>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-text"><span class="logo-line1">Leafclutch</span><span class="logo-line2">Technologies Pvt. Ltd.</span></span>
+          </a>
+          <p>Empowering innovation through cutting-edge technology solutions, training, and digital transformation services.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/profile.php?id=61584902195796" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/leafclutch.technologies/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/leafclutch-technologies/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@LeafclutchTechnologies" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@leafclutchtechnologies1" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://discord.gg/4aDwcMZBPq" target="_blank" rel="noopener noreferrer" aria-label="Discord"><i class="fab fa-discord"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="https://leafclutchtech.com.np/services/all-services" target="_blank" rel="noopener noreferrer">Services</a></li>
+            <li><a href="https://leafclutchtech.com.np/careers/jobs" target="_blank" rel="noopener noreferrer">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="course-ai-ml.html">AI &amp; Machine Learning</a></li>
+            <li><a href="course-web-dev.html">Web Development</a></li>
+            <li><a href="course-cybersecurity.html">Cybersecurity</a></li>
+            <li><a href="course-ui-ux.html">UI/UX Design</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-phone"></i> <a href="tel:+9779766715768">+977-9766715768</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@leafclutchtech.com.np">info@leafclutchtech.com.np</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Siddharthanagar, Rupandehi, Nepal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Leafclutch Technologies. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="https://leafclutchtech.com.np/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://leafclutchtech.com.np/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send/?phone=9779766715768&text=Hi%21+I%27m+interested+in+your+services.&type=phone_number&app_absent=0" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+  <script>
+    // ========== PRE-FILL COURSE FROM URL ==========
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const course = params.get('course');
+      if (course) {
+        const courseSelect = document.getElementById('course');
+        for (let i = 0; i < courseSelect.options.length; i++) {
+          if (courseSelect.options[i].value === course) {
+            courseSelect.selectedIndex = i;
+            break;
+          }
+        }
+      }
+    })();
+
+    // ========== SHOW/HIDE "OTHER" REASON INPUT ==========
+    document.querySelectorAll('input[name="reason"]').forEach(function(radio) {
+      radio.addEventListener('change', function() {
+        var otherInput = document.getElementById('otherReason');
+        if (this.value === 'Other') {
+          otherInput.style.display = 'block';
+          otherInput.required = true;
+          otherInput.focus();
+        } else {
+          otherInput.style.display = 'none';
+          otherInput.required = false;
+          otherInput.value = '';
+        }
+      });
+    });
+
+    // ========== FORM SUBMISSION — SHOW WHATSAPP + EMAIL OPTIONS ==========
+    document.getElementById('enrollForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      var fullName = document.getElementById('fullName').value.trim();
+      var contactNumber = document.getElementById('contactNumber').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var linkedin = document.getElementById('linkedin').value.trim() || 'Not provided';
+      var semester = document.getElementById('semester').value;
+      var course = document.getElementById('course').value;
+
+      var reasonRadio = document.querySelector('input[name="reason"]:checked');
+      var reason = reasonRadio ? reasonRadio.value : '';
+      if (reason === 'Other') {
+        var otherVal = document.getElementById('otherReason').value.trim();
+        reason = otherVal ? 'Other: ' + otherVal : 'Other (not specified)';
+      }
+
+      // Build email body
+      var emailBody = 'Hello Leafclutch Team,\n\n'
+        + 'My name is ' + fullName + ' and I would like to enroll in a training/internship program.\n\n'
+        + '--- Application Details ---\n'
+        + 'Full Name: ' + fullName + '\n'
+        + 'Email: ' + email + '\n'
+        + 'Phone: ' + contactNumber + '\n'
+        + 'LinkedIn: ' + linkedin + '\n'
+        + 'Semester: ' + semester + '\n'
+        + 'Course Interested In: ' + course + '\n'
+        + 'Reason for Joining: ' + reason + '\n\n'
+        + 'I look forward to hearing from you.\n\n'
+        + 'Sincerely,\n' + fullName;
+
+      // Build WhatsApp message
+      var waMessage = '*Enrollment Application*\n\n'
+        + 'Full Name: ' + fullName + '\n'
+        + 'Email: ' + email + '\n'
+        + 'Phone: ' + contactNumber + '\n'
+        + 'LinkedIn: ' + linkedin + '\n'
+        + 'Semester: ' + semester + '\n'
+        + 'Course: ' + course + '\n'
+        + 'Reason: ' + reason;
+
+      // Set Gmail URL
+      var gmailUrl = 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto'
+        + '&to=' + encodeURIComponent('hr@leafclutchtech.com.np')
+        + '&su=' + encodeURIComponent('Enrollment Application — ' + course)
+        + '&body=' + encodeURIComponent(emailBody);
+
+      // Set WhatsApp URL
+      var waUrl = 'https://api.whatsapp.com/send/?phone=9779766715768&text=' + encodeURIComponent(waMessage);
+
+      document.getElementById('gmailBtn').href = gmailUrl;
+      document.getElementById('whatsappBtn').href = waUrl;
+      document.getElementById('submitModal').classList.add('active');
+    });
+
+    // Close modal
+    document.getElementById('modalClose').addEventListener('click', function() {
+      document.getElementById('submitModal').classList.remove('active');
+    });
+    document.getElementById('submitModal').addEventListener('click', function(e) {
+      if (e.target === this) this.classList.remove('active');
+    });
+  </script>
+</body>
+</html>

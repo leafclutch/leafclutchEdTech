@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Stack Web Development Course | Leafclutch Technologies — Beginner to Advanced</title>
+  <meta name="description" content="Learn Full Stack Web Development from scratch. 16-week program covering HTML, CSS, JavaScript, React, Node.js, MongoDB, REST APIs. Enroll at Leafclutch Technologies, Bhairahawa Nepal.">
+  <meta name="keywords" content="Web Development course Nepal, Full Stack training, React course, Node.js training, MERN stack, web dev internship Nepal, Leafclutch Technologies">
+  <meta name="author" content="Leafclutch Technologies Pvt. Ltd.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://leafclutchtech.com.np/courses/web-development">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-text"><span class="logo-line1">Leafclutch</span><span class="logo-line2">Technologies Pvt. Ltd.</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li class="has-dropdown">
+            <a href="index.html#courses" class="nav-link active">Courses <i class="fas fa-chevron-down nav-arrow"></i></a>
+            <ul class="dropdown">
+              <li><a href="course-ai-ml.html">AI &amp; Machine Learning</a></li>
+              <li><a href="course-web-dev.html">Web Development</a></li>
+              <li><a href="course-cybersecurity.html">Cybersecurity</a></li>
+              <li><a href="course-ui-ux.html">UI/UX Design</a></li>
+              <li><a href="course-graphic-design.html">Graphic Designing</a></li>
+              <li><a href="course-data-science.html">Data Science</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-login">Get in Touch</a>
+        <a href="courses.html" class="btn btn-signup">Explore Courses</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== BREADCRUMB ========== -->
+  <section class="course-breadcrumb-bar">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">HOME</a>
+        <span class="breadcrumb-separator">&gt;</span>
+        <a href="courses.html">COURSES</a>
+        <span class="breadcrumb-separator">&gt;</span>
+        <span class="breadcrumb-current">WEB DEVELOPMENT</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ========== COURSE HERO ========== -->
+  <section class="course-page-hero">
+    <div class="container">
+      <div class="course-hero-grid">
+        <div class="course-hero-content reveal-left">
+          <span class="section-badge">FULL STACK PROGRAM</span>
+          <h1 class="course-hero-title">Full Stack Web Development</h1>
+          <p class="course-hero-desc">Build modern, responsive websites and web applications from front-end to back-end. Learn the MERN stack and deploy real projects — perfect for complete beginners.</p>
+          <div class="course-hero-meta">
+            <div class="course-hero-meta-item"><i class="fas fa-clock"></i> 3 Months</div>
+            <div class="course-hero-meta-item"><i class="fas fa-signal"></i> Beginner to Advanced</div>
+            <div class="course-hero-meta-item"><i class="fas fa-laptop-house"></i> Online &amp; On-site</div>
+            <div class="course-hero-meta-item"><i class="fas fa-certificate"></i> Certificate Included</div>
+          </div>
+          <div class="course-hero-buttons">
+            <a href="enroll.html?course=Full+Stack+Web+Development" class="btn btn-primary">Enroll Now <i class="fas fa-arrow-right"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=9779766715768&text=Hi%21+I%27m+interested+in+the+Web+Development+course.&type=phone_number&app_absent=0" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</a>
+          </div>
+        </div>
+        <div class="course-hero-image reveal-right">
+          <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=700&h=500&fit=crop" alt="Web Development course at Leafclutch Technologies Nepal">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REQUIREMENTS ========== -->
+  <section class="course-section">
+    <div class="container">
+      <div class="course-section-header">
+        <span class="section-badge">REQUIREMENTS</span>
+        <h2 class="section-title">What You Need to Get Started</h2>
+        <p class="section-desc">No coding experience? No problem. This course takes you from zero to full-stack developer.</p>
+      </div>
+      <div class="requirements-grid">
+        <div class="requirements-card beginner-card reveal">
+          <h3><i class="fas fa-seedling"></i> Beginner Friendly</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> No prior programming or web development experience needed</li>
+            <li><i class="fas fa-check"></i> Basic computer skills — typing, using a browser, file management</li>
+            <li><i class="fas fa-check"></i> Curiosity and dedication to practice coding daily</li>
+            <li><i class="fas fa-check"></i> We teach HTML, CSS, and JavaScript from the very basics</li>
+          </ul>
+        </div>
+        <div class="requirements-card reveal">
+          <h3><i class="fas fa-tools"></i> Technical Requirements</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> A laptop or desktop computer (any OS — Windows, Mac, or Linux)</li>
+            <li><i class="fas fa-check"></i> Stable internet connection for online classes</li>
+            <li><i class="fas fa-check"></i> VS Code editor (free) — installed in the first session</li>
+            <li><i class="fas fa-check"></i> Chrome or Firefox browser for development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CURRICULUM ========== -->
+  <section class="course-section">
+    <div class="container">
+      <div class="course-section-header">
+        <span class="section-badge">CURRICULUM</span>
+        <h2 class="section-title">Course Content</h2>
+        <p class="section-desc">A comprehensive full-stack journey covering HTML, CSS, Tailwind, JavaScript, Node.js, React, MongoDB, Prisma &amp; Deployment.</p>
+      </div>
+      <div class="curriculum-accordion-wrapper">
+        <div class="curriculum-stats">
+          <span class="curriculum-stats-text"><strong>8 sections</strong> • 24 lectures • 3 months total length</span>
+          <button class="curriculum-expand-btn">Expand all sections</button>
+        </div>
+
+        <div class="curriculum-section-item active">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">Web Development Foundations</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Web development roadmap &amp; career paths</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Setting up your code editor &amp; tools</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Basics of how the web works</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">HTML &amp; CSS Mastery</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">HTML5 structure, semantics &amp; forms</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">CSS3 styling, Flexbox &amp; Grid layout</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Tailwind CSS utility-first framework</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">JavaScript Foundation</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Variables, functions &amp; ES6+ syntax</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">DOM manipulation &amp; event handling</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Async JavaScript, Fetch API &amp; Promises</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">Backend with Node.js &amp; Express</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Server setup with Node.js &amp; Express</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Mongoose, Prisma &amp; Drizzle ORMs</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">RESTful API design &amp; routing</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">Database &amp; Authentication</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">MongoDB, PostgreSQL &amp; NeonDB</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Build your own authentication system</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">CRUD operations &amp; data modeling</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">Frontend with React</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">React fundamentals &amp; API handling</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">State management with Redux &amp; Zustand</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Building interactive single-page apps</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">Full-Stack MERN Projects</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Full-stack application development</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Open-source project contribution</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Git, GitHub &amp; version control</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="curriculum-section-item">
+          <button class="curriculum-section-header-btn">
+            <i class="fas fa-chevron-right curriculum-section-chevron"></i>
+            <span class="curriculum-section-title">Deployment &amp; AI Integration</span>
+            <span class="curriculum-section-meta">3 lectures</span>
+          </button>
+          <div class="curriculum-section-body">
+            <ul class="curriculum-lecture-list">
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Custom VPS deployment &amp; hosting</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">TensorFlow.js &amp; Langchain for AI apps</span></li>
+              <li class="curriculum-lecture-item"><i class="fas fa-play-circle curriculum-lecture-icon"></i><span class="curriculum-lecture-name">Portfolio building &amp; freelancing tips</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="recommended-course-card">
+          <div class="recommended-course-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="recommended-course-content">
+            <div class="recommended-course-label">Recommended Udemy Course</div>
+            <div class="recommended-course-title">Complete Web Development Course by Hitesh Choudhary</div>
+            <p class="recommended-course-note">We recommend this course for our training. If you prefer a different Udemy course, let us know — we'll provide that one instead.</p>
+          </div>
+          <a href="https://www.udemy.com/course/web-dev-master/" class="recommended-course-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> View on Udemy</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- ========== LEARNING OUTCOMES ========== -->
+  <section class="course-section">
+    <div class="container">
+      <div class="course-section-header">
+        <span class="section-badge">OUTCOMES</span>
+        <h2 class="section-title">What You'll Be Able to Do</h2>
+      </div>
+      <div class="outcomes-grid">
+        <div class="outcome-card reveal">
+          <div class="outcome-icon"><i class="fas fa-code"></i></div>
+          <h3>Build Responsive Websites</h3>
+          <p>Create pixel-perfect, mobile-first websites using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-icon"><i class="fab fa-react"></i></div>
+          <h3>React Applications</h3>
+          <p>Build dynamic single-page applications using React.js and modern front-end tools.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-icon"><i class="fas fa-server"></i></div>
+          <h3>Back-End APIs</h3>
+          <p>Design and build RESTful APIs with Node.js, Express, and MongoDB.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-icon"><i class="fas fa-database"></i></div>
+          <h3>Database Management</h3>
+          <p>Store, query, and manage data with MongoDB &amp; Mongoose.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+          <h3>Deploy Live Projects</h3>
+          <p>Take your projects live with professional deployment and hosting.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Industry Certificate</h3>
+          <p>Receive a recognized certificate from Leafclutch Technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AFTER ENROLLMENT ========== -->
+  <section class="enroll-benefits-section">
+    <div class="container">
+      <div class="enroll-benefits-header">
+        <span class="section-badge">AFTER ENROLLMENT</span>
+        <h2 class="section-title">What You'll Get</h2>
+        <p class="section-desc">From day one, you'll have access to resources and support that set you up for success.</p>
+      </div>
+      <div class="enroll-benefits-grid">
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fab fa-youtube"></i></div>
+          <h3>Lifetime Udemy Course</h3>
+          <p>Get a premium Udemy course related to your chosen training program — yours to keep forever.</p>
+          <span class="enroll-benefit-highlight">Premium</span>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Dedicated Mentor Support</h3>
+          <p>Get guidance from experienced industry mentors who'll help you every step of the way.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-building"></i></div>
+          <h3>Company Workflow Experience</h3>
+          <p>Understand how a real IT company operates — from project planning to deployment.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>1 Month Training + 2 Months Internship</h3>
+          <p>One month of intensive training followed by two months of hands-on training and internship opportunity.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>Connections &amp; Exposure</h3>
+          <p>Build your professional network and gain valuable industry exposure through real projects.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Potential Job Offer</h3>
+          <p>Best performing candidates can receive a direct job offer from Leafclutch Technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AFTER COMPLETION ========== -->
+  <section class="enroll-benefits-section enroll-benefits-section--alt">
+    <div class="container">
+      <div class="enroll-benefits-header">
+        <span class="section-badge">AFTER COMPLETION</span>
+        <h2 class="section-title">What You'll Walk Away With</h2>
+        <p class="section-desc">Complete the program and leave with tangible skills, credentials, and opportunities.</p>
+      </div>
+      <div class="enroll-benefits-grid">
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-award"></i></div>
+          <h3>Completion Certificate</h3>
+          <p>Receive an official completion certificate from Leafclutch Technologies for your portfolio.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Training &amp; Internship Certificates</h3>
+          <p>Get separate training certificate and internship certificate to showcase your experience.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Company &amp; Tools Knowledge</h3>
+          <p>Gain real understanding of how companies run and hands-on experience with industry tools.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Professional Experience</h3>
+          <p>Add real professional work experience to your resume — not just theory, but actual project work.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-hands-helping"></i></div>
+          <h3>Ongoing Team Support</h3>
+          <p>Our team continues to support you even after the program — career advice, referrals, and more.</p>
+        </div>
+        <div class="enroll-benefit-card reveal">
+          <div class="enroll-benefit-icon"><i class="fas fa-user-check"></i></div>
+          <h3>Direct Job Offer</h3>
+          <p>If a vacancy is available, you can get a direct job offer — no interview needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COURSE CTA ========== -->
+  <section class="course-cta">
+    <div class="course-cta-content">
+      <h2>Ready to Build the Web?</h2>
+      <p>Join our next Web Development batch and start coding from day one. No prerequisites — just your enthusiasm.</p>
+      <div class="cta-buttons">
+        <a href="enroll.html?course=Full+Stack+Web+Development" class="btn btn-white">Enroll Now</a>
+        <a href="https://api.whatsapp.com/send/?phone=9779766715768&text=Hi%21+I%27m+interested+in+the+Web+Development+course.&type=phone_number&app_absent=0" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-text"><span class="logo-line1">Leafclutch</span><span class="logo-line2">Technologies Pvt. Ltd.</span></span>
+          </a>
+          <p>Empowering innovation through cutting-edge technology solutions, training, and digital transformation services.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/profile.php?id=61584902195796" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/leafclutch.technologies/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/leafclutch-technologies/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@LeafclutchTechnologies" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@leafclutchtechnologies1" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://discord.gg/4aDwcMZBPq" target="_blank" rel="noopener noreferrer" aria-label="Discord"><i class="fab fa-discord"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="https://leafclutchtech.com.np/services/all-services" target="_blank" rel="noopener noreferrer">Services</a></li>
+            <li><a href="https://leafclutchtech.com.np/careers/jobs" target="_blank" rel="noopener noreferrer">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="course-ai-ml.html">AI &amp; Machine Learning</a></li>
+            <li><a href="course-web-dev.html">Web Development</a></li>
+            <li><a href="course-cybersecurity.html">Cybersecurity</a></li>
+            <li><a href="course-ui-ux.html">UI/UX Design</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-phone"></i> <a href="tel:+9779766715768">+977-9766715768</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@leafclutchtech.com.np">info@leafclutchtech.com.np</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Siddharthanagar, Rupandehi, Nepal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Leafclutch Technologies. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="https://leafclutchtech.com.np/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://leafclutchtech.com.np/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send/?phone=9779766715768&text=Hi%21+I%27m+interested+in+your+services.&type=phone_number&app_absent=0" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
